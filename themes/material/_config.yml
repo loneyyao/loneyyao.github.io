@@ -19,8 +19,8 @@ head:
 # Jump Links Settings
 url:
     rss:
-    daily_pic: "#"
-    logo: "#"
+    daily_pic: "www.google.com"
+    logo: "www.baidu.com"
 
 
 # ---------------------------------------------------------------

@@ -4,8 +4,8 @@
 
 # Head info
 head:
-    favicon: "/img/androidcc.png"
-    high_res_favicon: "/img/androidcc.png"
+    favicon: "/img/me.png"
+    high_res_favicon: "/img/me.png"
     apple_touch_icon: "/img/androidcc.png"
     keywords:
     site_verification:
@@ -19,8 +19,8 @@ head:
 # Jump Links Settings
 url:
     rss:
-    daily_pic: "www.google.com"
-    logo: "www.baidu.com"
+    daily_pic: "http://www.baidu.com"
+    logo: "http://www.baidu.com"
 
 
 # ---------------------------------------------------------------
@@ -33,7 +33,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: "晨晨, 你是我的小仙女, 爱你么么哒~~"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"

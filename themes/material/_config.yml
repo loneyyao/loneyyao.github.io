@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "/img/me.png"
-    high_res_favicon: "/img/me.png"
-    apple_touch_icon: "/img/androidcc.png"
+    favicon: "/img/favicon.png"
+    high_res_favicon: "/img/favicon.png"
+    apple_touch_icon: "/img/favicon.png"
     keywords:
     site_verification:
         google:

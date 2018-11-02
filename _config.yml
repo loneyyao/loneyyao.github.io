@@ -80,5 +80,5 @@ deploy:
   type: git
   repo: 
     github: https://github.com/loneyyao/loneyyao.github.io.git
-    jingdong: git@116.196.110.60:/home/git/blog.git
+#    jingdong: git@116.196.110.60:/home/git/blog.git
   branch: master

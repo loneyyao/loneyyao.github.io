@@ -80,5 +80,5 @@ deploy:
   type: git
   repo: 
     github: https://github.com/loneyyao/loneyyao.github.io.git
-    bwg: ssh://git@144.34.186.244:28680/home/git/hexo.git
+    bwg: ssh://git@144.34.186.18:28680/home/git/hexo.git
   branch: master

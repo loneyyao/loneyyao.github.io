@@ -37,7 +37,7 @@
     
     <title>
         
-            jenkin 操作手册 | 
+            android引入c文件之后, debug时间过长的问题 | 
         
         Hexo
     </title>
@@ -226,18 +226,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="jenkin 操作手册 | Hexo">
+    <meta property="og:title" content="android引入c文件之后, debug时间过长的问题 | Hexo">
     <meta property="og:image" content="http://yoursite.com/img/favicon.png">
     <meta property="og:description" content="">
     
 
     
-        <meta property="article:published_time" content="Fri May 22 2020 14:16:41 GMT+0800">
-        <meta property="article:modified_time" content="Fri May 22 2020 15:19:03 GMT+0800">
+        <meta property="article:published_time" content="Fri May 22 2020 15:26:15 GMT+0800">
+        <meta property="article:modified_time" content="Fri May 22 2020 15:26:53 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="jenkin 操作手册 | Hexo">
+    <meta name="twitter:title" content="android引入c文件之后, debug时间过长的问题 | Hexo">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://yoursite.com/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -245,7 +245,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/2020/05/22/jenkins android自动化部署/index.html">
+        <link rel="canonical" href="http://yoursite.com/2020/05/22/android引用c文件之后调试时间过长的问题/index.html">
     
 
     <!-- Structured-data for SEO -->
@@ -257,10 +257,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://yoursite.com/2020/05/22/jenkins android自动化部署/index.html",
-    "headline": "jenkin 操作手册",
-    "datePublished": "Fri May 22 2020 14:16:41 GMT+0800",
-    "dateModified": "Fri May 22 2020 15:19:03 GMT+0800",
+    "mainEntityOfPage": "http://yoursite.com/2020/05/22/android引用c文件之后调试时间过长的问题/index.html",
+    "headline": "android引入c文件之后, debug时间过长的问题",
+    "datePublished": "Fri May 22 2020 15:26:15 GMT+0800",
+    "dateModified": "Fri May 22 2020 15:26:53 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "John Doe",
@@ -343,8 +343,8 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#项目背景-RCE以及其他基于RCE项目"><span class="post-toc-number">1.</span> <span class="post-toc-text">项目背景: RCE以及其他基于RCE项目</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#实现功能-测试人员可以基于jenkins打包生产二维码下载安装"><span class="post-toc-number">2.</span> <span class="post-toc-text">实现功能: 测试人员可以基于jenkins打包生产二维码下载安装</span></a></li></ol><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#具体步骤"><span class="post-toc-number"></span> <span class="post-toc-text">具体步骤:</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#1-访问链接"><span class="post-toc-number">1.</span> <span class="post-toc-text">1, 访问链接:</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#2-任务列表选择android-yuanhe"><span class="post-toc-number">2.</span> <span class="post-toc-text">2,任务列表选择android_yuanhe</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#3-点击进入之后选择build-with-params"><span class="post-toc-number">3.</span> <span class="post-toc-text">3,点击进入之后选择build with params</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#4-点击开始构建-等待五分钟左右-构建成功-会在左侧展示构建信息-包括app的api环境以及打包模式和构建时间以及版本号若构建成功会展示二维码-扫描下载安装即可-若构建失败则查看日志-联系开发人员"><span class="post-toc-number">4.</span> <span class="post-toc-text">4, 点击开始构建, 等待五分钟左右, 构建成功, 会在左侧展示构建信息, 包括app的api环境以及打包模式和构建时间以及版本号若构建成功会展示二维码, 扫描下载安装即可, 若构建失败则查看日志, 联系开发人员.</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#5-构建参数解释"><span class="post-toc-number">5.</span> <span class="post-toc-text">5, 构建参数解释</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#6-补充说明"><span class="post-toc-number">5.1.</span> <span class="post-toc-text">6, 补充说明:</span></a></li></ol></li></ol>
-    </li></ul>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#项目背景-智能眼罩"><span class="post-toc-number">1.</span> <span class="post-toc-text">项目背景: 智能眼罩</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#问题"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">问题</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#解决办法"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">解决办法:</span></a></li></ol></li></ol>
+    </ul>
     
 
 
@@ -375,7 +375,7 @@
         
     
             <p class="article-headline-p">
-                jenkin 操作手册
+                android引入c文件之后, debug时间过长的问题
             </p>
         </div>
 
@@ -425,7 +425,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=jenkin 操作手册&url=http://yoursite.com/2020/05/22/jenkins android自动化部署/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=android引入c文件之后, debug时间过长的问题&url=http://yoursite.com/2020/05/22/android引用c文件之后调试时间过长的问题/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -434,7 +434,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=jenkin 操作手册&url=http://yoursite.com/2020/05/22/jenkins android自动化部署/index.html&via=John Doe" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=android引入c文件之后, debug时间过长的问题&url=http://yoursite.com/2020/05/22/android引用c文件之后调试时间过长的问题/index.html&via=John Doe" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -443,7 +443,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/05/22/jenkins android自动化部署/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/05/22/android引用c文件之后调试时间过长的问题/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -452,7 +452,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2020/05/22/jenkins android自动化部署/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2020/05/22/android引用c文件之后调试时间过长的问题/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -476,18 +476,19 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p><em>-by 李泽君 2019-10-21</em></p>
+        <p> <em>-by 李泽君 2019-12-26</em></p>
 <ul>
-<li><h4 id="项目背景-RCE以及其他基于RCE项目"><a href="#项目背景-RCE以及其他基于RCE项目" class="headerlink" title="项目背景: RCE以及其他基于RCE项目"></a>项目背景: RCE以及其他基于RCE项目</h4></li>
-<li><h4 id="实现功能-测试人员可以基于jenkins打包生产二维码下载安装"><a href="#实现功能-测试人员可以基于jenkins打包生产二维码下载安装" class="headerlink" title="实现功能: 测试人员可以基于jenkins打包生产二维码下载安装"></a>实现功能: 测试人员可以基于jenkins打包生产二维码下载安装</h4></li>
+<li><h4 id="项目背景-智能眼罩"><a href="#项目背景-智能眼罩" class="headerlink" title="项目背景: 智能眼罩"></a>项目背景: 智能眼罩</h4></li>
 </ul>
-<h3 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤:"></a>具体步骤:</h3><h4 id="1-访问链接"><a href="#1-访问链接" class="headerlink" title="1, 访问链接:"></a>1, 访问链接:</h4><p><a href="http://120.24.225.154:8080/" target="_blank" rel="noopener">http://120.24.225.154:8080/</a></p>
-<h4 id="2-任务列表选择android-yuanhe"><a href="#2-任务列表选择android-yuanhe" class="headerlink" title="2,任务列表选择android_yuanhe"></a>2,任务列表选择android_yuanhe</h4><p><img src="http://120.24.225.154:4999/server/../Public/Uploads/2019-10-17/5da82577281f4.png" alt="任务列表选择" title="任务列表选择"></p>
-<h4 id="3-点击进入之后选择build-with-params"><a href="#3-点击进入之后选择build-with-params" class="headerlink" title="3,点击进入之后选择build with params"></a>3,点击进入之后选择build with params</h4><p><img src="http://120.24.225.154:4999/server/../Public/Uploads/2019-10-17/5da8258e43fc6.png" alt="build" title="build"></p>
-<p><em>注: 其他选项请勿修改, 尤其是配置选项</em></p>
-<h4 id="4-点击开始构建-等待五分钟左右-构建成功-会在左侧展示构建信息-包括app的api环境以及打包模式和构建时间以及版本号若构建成功会展示二维码-扫描下载安装即可-若构建失败则查看日志-联系开发人员"><a href="#4-点击开始构建-等待五分钟左右-构建成功-会在左侧展示构建信息-包括app的api环境以及打包模式和构建时间以及版本号若构建成功会展示二维码-扫描下载安装即可-若构建失败则查看日志-联系开发人员" class="headerlink" title="4, 点击开始构建, 等待五分钟左右, 构建成功, 会在左侧展示构建信息, 包括app的api环境以及打包模式和构建时间以及版本号若构建成功会展示二维码, 扫描下载安装即可, 若构建失败则查看日志, 联系开发人员."></a>4, 点击开始构建, 等待五分钟左右, 构建成功, 会在左侧展示构建信息, 包括app的api环境以及打包模式和构建时间以及版本号若构建成功会展示二维码, 扫描下载安装即可, 若构建失败则查看日志, 联系开发人员.</h4><p><img src="http://120.24.225.154:4999/server/../Public/Uploads/2019-10-17/5da825af99540.png" alt="配置项" title="配置项"></p>
-<h4 id="5-构建参数解释"><a href="#5-构建参数解释" class="headerlink" title="5, 构建参数解释"></a>5, 构建参数解释</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">BuildType : Debug: 开发模式 Release: 生产模式(客户交付包)</span><br><span class="line">IS_JENKISN: 是否为jenkins打包, 默认为true, 不可修改</span><br><span class="line">PRODUCT_FLAVOR_BUILD: 选择打包环境:分别对应云服务器, 元禾测试环境, 元禾生产环境</span><br><span class="line">VERSION_NAME: app安装后的显示版本号. 注:与强制升级无关, 强制升级需要客户端更改versionCOde, 可以考虑后期加到jenkins配置中</span><br><span class="line">APPNAME:app打包的名称显示, 注:与安装后的app名称无关</span><br><span class="line">BUILD_TIME:显示app打包时间, 无需设置</span><br></pre></td></tr></table></figure>
-<h5 id="6-补充说明"><a href="#6-补充说明" class="headerlink" title="6, 补充说明:"></a>6, 补充说明:</h5><p>(1)Jenkins配置需要安卓开发知识, 测试人员只需要知道怎么使用, 并且掌握各项参数含义, 学习自己打包即可, 若有特殊需求, 可以跟开发沟通<br>(2)打包完成后会发邮件通知, 目前只设置了@李会@田文青<br>(3)邮件发送走的是蒲公英, 二维码生成也是走的蒲公英, 邮件发送上限数量为50封/天.<br>(4)其他项目类似, 项目开始后, 可以配置到jenkins上</p>
+<blockquote>
+<p>项目引入c文件编译时, 增加了ndk库, ndk一般会引入lldb 去让Androidstudio可以debugc文件</p>
+</blockquote>
+<h5 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h5><blockquote>
+<p>引入lldb后每次使用进程断点调试时会加载LLDB调试c文件的进程, 时间长达两分钟左右, 实际上可能并不需要去debug C文件</p>
+</blockquote>
+<h5 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法:"></a>解决办法:</h5><p><img src="http://120.24.225.154:4999/server/../Public/Uploads/2019-12-26/5e042ffa9a98d.png" alt=""></p>
+<p><em>如图所示, 如果只需要debug java文件, 则选择java Debugger , 选择Auto的话, 则项目中含有C文件或者ndk时, 会自动加载LLDB, 导致每次debug进程都是漫长的等待.</em></p>
+<p>问题虽然简单, 但是百度不到, 试了好多次才解决~ 记录一下~</p>
 
         
     
@@ -508,7 +509,7 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2020/05/22/android 配置jenkins自动打包/" id="post_nav-newer" class="prev-content">
+        <a href="/2020/05/22/android动态代理/" id="post_nav-newer" class="prev-content">
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_back</i>
             </button>
@@ -522,7 +523,7 @@
 
     <!-- Next Nav -->
     
-        <a href="/2018/11/28/java垃圾回收算法/" id="post_nav-older" class="next-content">
+        <a href="/2020/05/22/android引用c文件/" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">

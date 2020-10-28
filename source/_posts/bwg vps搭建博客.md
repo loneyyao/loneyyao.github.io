@@ -90,6 +90,7 @@ title: 搬瓦工VPS搭建Hexo docker+nginx+ss+hexo
           branch: master 
           
 #### 8, 本地写文章
+        1, cd到博客目录下, vscode容易在工程根目录, 导致hexo命令无法正确执行
         hexo clean 
         hexo g -d
         

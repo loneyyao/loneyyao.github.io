@@ -1,3 +1,6 @@
+---
+title: android 7.0 以上不能使用系统私有so文件
+---
 <h4 align = "center"> *-by 李泽君 2020-10-28* </h4>
 
 <br></br>
